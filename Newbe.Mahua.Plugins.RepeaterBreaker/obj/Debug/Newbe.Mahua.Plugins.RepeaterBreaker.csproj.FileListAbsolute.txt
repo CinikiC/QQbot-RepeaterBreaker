@@ -1,0 +1,17 @@
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\Newbe.Mahua.Plugins.RepeaterBreaker.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\Newbe.Mahua.Plugins.RepeaterBreaker.pdb
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\Autofac.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\MediatR.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\MessagePack.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\Newbe.Mahua.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\Newbe.Mahua.PluginLoader.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\System.Threading.Tasks.Extensions.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\System.ValueTuple.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\Newbe.Mahua.pdb
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\Newbe.Mahua.xml
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\bin\Debug\Newbe.Mahua.PluginLoader.pdb
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\obj\Debug\Newbe.Mahua.Plugins.RepeaterBreaker.csproj.CoreCompileInputs.cache
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\obj\Debug\Newbe.Mahua.Plugins.RepeaterBreaker.csproj.CopyComplete
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\obj\Debug\Newbe.Mahua.Plugins.RepeaterBreaker.dll
+c:\users\ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\obj\Debug\Newbe.Mahua.Plugins.RepeaterBreaker.pdb
+C:\Users\Ciniki\source\repos\Newbe.Mahua.Plugins.RepeaterBreaker\Newbe.Mahua.Plugins.RepeaterBreaker\obj\Debug\Newbe.Mahua.Plugins.RepeaterBreaker.csprojAssemblyReference.cache
