@@ -1,0 +1,2 @@
+# QQbot-RepeaterBreaker
+基于Newbe.Mahua.Framework开发的QQ机器人，可以检测QQ群中的复读行为并禁言相关的群成员
