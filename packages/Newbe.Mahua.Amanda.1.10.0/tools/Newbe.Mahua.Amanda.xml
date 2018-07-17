@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Newbe.Mahua.Amanda</name>
+    </assembly>
+    <members>
+        <member name="M:Newbe.Mahua.Amanda.Messages.Builders.AmandaMessageBuilder.BFace(System.String)">
+            <summary>
+            {1}为该原创表情的ID，存放在酷Q目录的data\bface\下
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.Messages.Builders.AmandaMessageBuilder.Image(System.String)">
+            <summary>
+            {1}为图片文件名称，图片存放在酷Q目录的data\image\下
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SendPraise(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="QQ号"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SendShake(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="QQ号"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_Getbkn">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_QuitGroup(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="群号"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_QuitDiscussGroup(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="讨论组号"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetSignature(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="个性签名"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetDiscussName(System.String,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="讨论组号"></param>
+             <param name="名称"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_BanGroup(System.String,System.Boolean)">
+             <summary>
+            
+             </summary>
+             <param name="群号"></param>
+             <param name="是否全群禁言"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_RemoveGroup(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="群号"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetManager(System.String,System.String,System.Boolean)">
+             <summary>
+            
+             </summary>
+             <param name="群号"></param>
+             <param name="QQ号"></param>
+             <param name="是否设置为管理员">真,设置  假,取消</param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_Ban(System.String,System.String,System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="群号"></param>
+             <param name="QQ"></param>
+             <param name="禁言时长">单位:秒  0为解除禁言</param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetAnony(System.String,System.Boolean)">
+             <summary>
+            
+             </summary>
+             <param name="群号"></param>
+             <param name="是否允许匿名聊天"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_RemoveMember(System.String,System.String,System.Boolean)">
+             <summary>
+            
+             </summary>
+             <param name="群号"></param>
+             <param name="QQ号"></param>
+             <param name="是否不再接收加群申请"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetCookies">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetLoginQQ">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetPluginState">
+            <summary>
+            是否开启/关闭
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetPath">
+            <summary>
+            框架为插件所创建的一个目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SendMsg(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            机器人发送消息
+            </summary>
+            <param name="类型">1.好友消息 2.群消息 3.群临时消息 4.讨论组消息 5.讨论组临时消息</param>
+            <param name="群组">类型不为1时为群号/讨论组号  类型为1时可留空</param>
+            <param name="QQ号">类型为2，4时可留空</param>
+            <param name="内容"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetGroupAdd(System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            处理加群消息
+            </summary>
+            <param name="群号"></param>
+            <param name="QQ号"></param>
+            <param name="Seq"></param>
+            <param name="操作方式">1.同意 2.拒绝 3.忽略</param>
+            <param name="拒绝理由">参数可为空，且为 拒绝 时有效</param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetFriendAdd(System.String,System.Int32,System.String)">
+            <summary>
+            处理加好友消息
+            </summary>
+            <param name="QQ号"></param>
+            <param name="操作方式">1.同意 2.拒绝 3.忽略</param>
+            <param name="拒绝理由">参数可为空，且为 拒绝 时有效</param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SendLog(System.String,System.String,System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="类型"></param>
+             <param name="内容"></param>
+             <param name="字体颜色"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetFriendName(System.String,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="好友QQ"></param>
+             <param name="备注名"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_DeleteFriend(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="好友QQ"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_AddGroup(System.String,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="群号"></param>
+             <param name="附加信息"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_163Music(System.String)">
+            <summary>
+            返回网易云点歌XML
+            </summary>
+            <param name="歌曲ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_QQMusic(System.String)">
+            <summary>
+            返回QQ点歌XML
+            </summary>
+            <param name="歌曲ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_JsonMusic(System.String)">
+            <summary>
+            返回Json点歌XML
+            </summary>
+            <param name="歌曲ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_Error(System.String,System.String)">
+            <summary>
+            置插件错误管理
+            </summary>
+            <param name="Code"></param>
+            <param name="Str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetGroupCard(System.String,System.String)">
+            <summary>
+            取得群内成员的名片
+            </summary>
+            <param name="群号"></param>
+            <param name="QQ号"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetNick(System.String)">
+            <summary>
+            取得某个QQ的昵称
+            </summary>
+            <param name="QQ号"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetGroupCard(System.String,System.String,System.String)">
+            <summary>
+            修改群内成员的名片
+            </summary>
+            <param name="群号"></param>
+            <param name="QQ号"></param>
+            <param name="新名片"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetPraiseNum(System.String)">
+            <summary>
+            取得某个QQ的名片赞数量
+            </summary>
+            <param name="QQ号"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetFriendList">
+            <summary>
+            以JSON形式取得好友列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetGroupList">
+            <summary>
+            以JSON形式取得群列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_GetGroupMemberList(System.String)">
+            <summary>
+            以JSON形式取得群成员列表
+            </summary>
+            <param name="群号"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Newbe.Mahua.Amanda.NativeApi.IAmandaApi.Api_SetQQState(System.Int32)">
+            <summary>
+            改变QQ在线状态
+            </summary>
+            <param name="类型">1.我在线上 2.Q我吧 3.离开 4.忙碌 5.请勿打扰 6.隐身</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
